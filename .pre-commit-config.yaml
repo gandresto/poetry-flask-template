@@ -8,21 +8,17 @@ repos:
       - id: check-json
       - id: check-added-large-files
       - id: check-yaml
-      - id: debug-statements
-      - id: name-tests-test
-      - id: double-quote-string-fixer
-      - id: requirements-txt-fixer
   - repo: https://github.com/PyCQA/flake8
     rev: 4.0.1
     hooks:
       - id: flake8
         additional_dependencies: [flake8-typing-imports==1.10.0]
   - repo: https://github.com/psf/black
-    rev: stable
+    rev: 21.12b0
     hooks:
       - id: black
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: master
+    rev: v2.20.4
     hooks:
       - id: commitizen
         stages: [commit-msg]
