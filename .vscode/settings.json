@@ -4,5 +4,11 @@
     "titleBar.activeBackground": "#0a273a",
     "titleBar.activeForeground": "#FBFCFC"
   },
-  "restructuredtext.confPath": ""
+  "restructuredtext.confPath": "",
+  "python.formatting.provider": "black",
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }
