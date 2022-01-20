@@ -6,9 +6,13 @@ authors = ["Andres Gonzalez <gandresto@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+Flask = "^2.0.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+flake8 = "^4.0.1"
+black = "^21.12b0"
+commitizen = "^2.20.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
