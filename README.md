@@ -1,7 +1,6 @@
 # Poetry Flask Template
 
-## Description
-Contains the basic boilerplate to test, lint, build and run a flask aplication.
+This template contains the basic boilerplate to test, lint, build and run a flask aplication. It also includes conventional commits support.
 
 ## Requirements
 - [docker](https://docs.docker.com/get-docker/)
