@@ -1,9 +1,10 @@
+name: Lint Code Base
+
 #################################
 #################################
 ## Super Linter GitHub Actions ##
 #################################
 #################################
-name: Lint Code Base
 
 #
 # Documentation:
